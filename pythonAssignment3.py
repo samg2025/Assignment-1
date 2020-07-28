@@ -14,7 +14,7 @@ if x%3 == 0 and not (x%3 == 0 and x%5 == 0):
 if x%5 == 0 and not (x%3 == 0 and x%5 == 0):
     print("c")
 if x%3 == 0 and x%5 == 0:
-    print("Consultadd Python Training"
+    print("Consultadd Python Training")
     
     
 #2. Write a program in Python to perform the following operator based task:
