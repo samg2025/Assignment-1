@@ -40,12 +40,12 @@ for i in range(2000, 3200):
         print(i)
         
 #6. What is the output of the following code examples?
-●	   x=123 
+	   x=123 
       for i in x:
     print(i)    
-  Answer: Error will occur. for loop will not be able to iternate int.
+  #Answer: Error will occur. for loop will not be able to iternate int.
 
-●	i = 0
+	i = 0
 while i < 5: # Condition is while i is lower than 5
     print(i) 
     i += 1   # i goes up by value of 1 after every iteration
@@ -53,19 +53,19 @@ while i < 5: # Condition is while i is lower than 5
         break
 else:
     print(“error”) # the program will print "error" as long as i is not equal to 3
- Answer: 0, Error, 1, Error, 2       
+# Answer: 0, Error, 1, Error, 2       
 
-●	count = 0
+	count = 0
 while True:
     print(count) # starts from 0
     count += 1   # count goes up by value of 1 after every iteration
     if count >= 5:  # when count is equal to 5 or higher it stops the loop/iteration 
         Break
-Answer: 0,1,2,3,4,5
+#Answer: 0,1,2,3,4,5
 
 #7. Write a program that prints all the numbers from 0 to 6 except 3 and 6.
-       Expected output: 0 1 2 4 5
-Note: Use ‘continue’ statement
+   #    Expected output: 0 1 2 4 5
+#Note: Use ‘continue’ statement
 
 for i in range(0, 6):
     if i != 3 and i != 6:
@@ -73,9 +73,9 @@ for i in range(0, 6):
         continue
 
 #8. Write a program that accepts a string as an input from user and calculate the number off digits and letters.
-     Expected output: consul12
-     Letters 6
-     Digits 2
+    # Expected output: consul12
+    # Letters 6
+    # Digits 2
 
 output = input("Enter your output: ")
 digits = 0
@@ -90,7 +90,7 @@ print("Letters:", letters)
 print("Digits:", digits)
 
 #9. Read the two parts of the question below: 
-●	 Write a program such that it asks users to “guess the lucky number”. If the correct number is guessed the program stops, otherwise it continues forever. 
+# Write a program such that it asks users to “guess the lucky number”. If the correct number is guessed the program stops, otherwise it continues forever. 
 
 luckyNum = 7
 while True:
@@ -98,7 +98,7 @@ while True:
     if guess == luckyNum:
         break
         
-●	Modify the program so that it asks users whether they want to guess again each time. Use two variables, ‘number’ for the number and ‘answer’ for the answer to the question whether they want to continue guessing. The program stops if the user guesses the correct number or answers “no”. ( The program continues as long as a user has not answered “no” and has not guessed the correct number)
+# Modify the program so that it asks users whether they want to guess again each time. Use two variables, ‘number’ for the number and ‘answer’ for the answer to the question whether they want to continue guessing. The program stops if the user guesses the correct number or answers “no”. ( The program continues as long as a user has not answered “no” and has not guessed the correct number)
 
 luckyNum = 7
 while True:
@@ -111,11 +111,11 @@ while True:
             break
             
 #10. Write a program that asks five times to guess the lucky number. Use a while loop and a counter, such as
-            counter=1
-While counter <= 5:
-print(“Type in the”, counter, “number”
-counter=counter+1
-The program asks for five guesses (no matter whether the correct number was guessed or not). If the correct number is guessed, the program outputs “Good guess!”, otherwise it outputs “Try again!”. After the fifth guess it stops and prints “Game over!”.
+    #        counter=1
+#While counter <= 5:
+#print(“Type in the”, counter, “number”
+#counter=counter+1
+#The program asks for five guesses (no matter whether the correct number was guessed or not). If the correct number is guessed, the program outputs “Good guess!”, otherwise it outputs “Try again!”. After the fifth guess it stops and prints “Game over!”.
 
 luckyNum = 7
 counter = 1
